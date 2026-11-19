@@ -4,7 +4,7 @@
 
 以 10 分钟为调度粒度，联合安排外网购电和电池充放电。在满足负载、储能容量和功率约束的前提下，比较日前计划、日内滚动调整和波动电价预测对购电成本的影响。
 
-[建模报告（79 页）](docs/report/README.md) · [结果文件与逐日账单](results/) · [Python 运行入口](code/run_latest.py) · [竞赛官方赛题与数据](https://www.mcm.edu.cn/html_cn/node/27b6e148f8113f09b0269f64a02629fb.html)
+[建模报告（79 页）](docs/report/README.md) · [分时策略结果](results/dispatch/README.md) · [逐日账单](results/daily-bills/) · [Python 运行入口](code/run_latest.py) · [竞赛官方赛题与数据](https://www.mcm.edu.cn/html_cn/node/27b6e148f8113f09b0269f64a02629fb.html)
 
 ## 主要结果
 
@@ -55,6 +55,7 @@
 | 文件 | 内容 |
 | --- | --- |
 | [result1.xlsx](results/result1.xlsx) | 单日购电计划与储能充放电 |
+| [四种策略的分时结果](results/dispatch/README.md) | 计划购电、调整购电、储能与紧急购电，共 10 份 Excel |
 | [第三问_全年365天_八种情况.xlsx](results/第三问_全年365天_八种情况.xlsx) | 八种日内更新组合及校准结果 |
 | [逐日账单](results/daily-bills/) | 2025 年 2–12 月的自然日费用、购电量和储电量 |
 

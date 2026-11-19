@@ -81,7 +81,9 @@ def align_to_template(out,name):
 def preserve_presentation(out,name):
  directory=os.environ.get('TEMPLATE_SOURCE_DIR')
  if not directory:return out
- w=load_workbook(Path(directory)/name);meta={}
+ source=Path(directory)/name
+ if not source.is_file():return out
+ w=load_workbook(source);meta={}
  for s in w:
   heights=[]
   for row in range(1,s.max_row+1):
