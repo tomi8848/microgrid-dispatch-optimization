@@ -4,7 +4,7 @@
 
 以 10 分钟为调度粒度，联合安排外网购电和电池充放电。在满足负载、储能容量和功率约束的前提下，比较日前计划、日内滚动调整和波动电价预测对购电成本的影响。
 
-[结果文件与逐日账单](results/) · [Python 运行入口](code/run_latest.py) · [竞赛官方赛题与数据](https://www.mcm.edu.cn/html_cn/node/27b6e148f8113f09b0269f64a02629fb.html)
+[建模报告（79 页）](docs/report/README.md) · [结果文件与逐日账单](results/) · [Python 运行入口](code/run_latest.py) · [竞赛官方赛题与数据](https://www.mcm.edu.cn/html_cn/node/27b6e148f8113f09b0269f64a02629fb.html)
 
 ## 主要结果
 
