@@ -1,0 +1,25 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# Contest inputs are downloaded from the organizer
+/code/reproduction/C题/附件/
+
+# Generated model data, solver output and export artifacts
+/generated/
+/code/reproduction/附件/
+/code/reproduction/q[1-4]/data/
+/code/reproduction/q[1-4]/results/
+/code/reproduction/q[1-4]/qa/
+/code/reproduction/q[1-4]/reference/
+/code/reproduction/q1/figures/
+/code/reproduction/q1/latex/
+/code/reproduction/q2/forecast_module/data/
+/code/reproduction/q2/forecast_module/results/
+/code/reproduction/q2/forecast_module/qa/
+/code/reproduction/q4/workers/
+/code/input_reconstruction.json
+/code/reproduced_forecast_*.csv
